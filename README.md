@@ -1,69 +1,55 @@
-# React + TypeScript + Vite
+# Design To Code - 01
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-19.1.1-61dafb?style=flat-square&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-3178c6?style=flat-square&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-4.1.12-38bdf8?style=flat-square&logo=tailwindcss)
+![Vite](https://img.shields.io/badge/Vite-7.1.2-646cff?style=flat-square&logo=vite)
 
-Currently, two official plugins are available:
+Bu proje, **Figma to Code** kapsamında, React ve TypeScript kullanılarak responsive ve performanslı bir şekilde kodlanmıştır.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Herhangi bir **backend/api servis** bağlantısı bulunmayıp **sadece ön yüz tasarımı yer almaktadır.**
 
-## Expanding the ESLint configuration
+## 🚀 Özellikler
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 📱 **Responsive Tasarım**: Tüm cihazlarda mükemmel görünüm
+- 🎨 **Pixel Perfect'e Yakınlık**: Ufak farklılıklar dışında büyük oranda figma tasarımına benzetilmeye çalışılmıltır.
+- 🎯 **Component Based**: Yeniden kullanılabilir React bileşenleri
 
-```js
-export default tseslint.config([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
+## 🛠️ Teknolojiler
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+### Frontend
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
-```
+- **React 19.1.1**
+- **TypeScript 5.8.3**
+- **Tailwind CSS 4.1.12**
+- **React Router DOM 7.8.2**
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Build Tools & Dev Experience
 
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
+- **Vite 7.1.2** - Hızlı build tool
+- **ESLint** - Code linting
+- **Prettier** - Code formatting
+- **Fontsource** - Web font yönetimi
 
-export default tseslint.config([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs["recommended-typescript"],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
-```
+## 🎨 Tasarım Kaynağı
+
+Bu proje, [Figma](https://figma.com) üzerinde **Real Estate Website Landing Page** adlı tasarımdan esinlenilerek geliştirilmiştir.
+
+- **Orijinal Tasarım**: [Real Estate Landing Page](https://www.figma.com/community/file/1438552811702648785)
+- **Tasarım Lisansı**: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+- **Tasarımcı**: Figma Community - SA
+
+## 📄 Lisans
+
+Bu projedeki **kaynak kodlar** [GPL-3.0 Lisansı](LICENSE) altında yayınlanmıştır.  
+Kullanılan **tasarım** CC BY 4.0 lisansı kapsamındadır ve gerekli atıf yapılmıştır.
+
+## 👨‍💻 Geliştirici
+
+**Emircan Uçar**
+
+- GitHub: [@emircanucar](https://github.com/emircanucar)
+
+---
+
+⭐ Bu projeyi beğendiyseniz, lütfen bir yıldız verin!
