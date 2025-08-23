@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Custom colors for Tailwind v4 */
+  --color-primary: #1daeff;
+  --color-secondary: #8f90a6;
+  --color-tertiary: #ecf1f8;
+  --color-font-primary: #110229;
+  --color-font-secondary: #585981;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+@layer base {
+  /* Custom container with reduced width and auto margins */
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 1320px !important;
+  }
+}
+
+@layer components {
+  /*
+  ======================================================
+  Hero Section
+  ======================================================
+  */
+  .hero-section-bg {
+    background-image: url("./assets/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
