@@ -1,4 +1,5 @@
 import Header from "../components/layout/Header";
+import FeaturesSection from "../components/pages/HomePage/FeaturesSection";
 import HeroSection from "../components/pages/HomePage/HeroSection";
 import TopOffers from "../components/pages/HomePage/TopOffers";
 
@@ -8,6 +9,7 @@ function HomePage() {
       <Header />
       <HeroSection />
       <TopOffers />
+      {<FeaturesSection />}
     </div>
   );
 }
