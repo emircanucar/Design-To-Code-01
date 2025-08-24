@@ -5,7 +5,7 @@
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-4.1.12-38bdf8?style=flat-square&logo=tailwindcss)
 ![Vite](https://img.shields.io/badge/Vite-7.1.2-646cff?style=flat-square&logo=vite)
 
-Bu proje, **Figma to Code** kapsamında, React ve TypeScript kullanılarak responsive ve performanslı bir şekilde kodlanmıştır.
+Bu proje, **Figma to Code** kapsamında, React ve TypeScript kullanılarak responsive bir şekilde kodlanmıştır.
 
 Herhangi bir **backend/api servis** bağlantısı bulunmayıp **sadece ön yüz tasarımı yer almaktadır.**
 

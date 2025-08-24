@@ -3,7 +3,7 @@ import HeroSectionStats from "./HeroSectionStats";
 
 function HeroSection() {
   return (
-    <div className="hero-section">
+    <div className="hero-section min-h-[736px]">
       <div className="hero-section-bg h-[633.76px] w-full rounded-[50px] px-[89px] pt-[114px]">
         <div className="w-[600px]">
           <h1 className="text-[56px] font-medium text-[var(--color-font-primary)]">
