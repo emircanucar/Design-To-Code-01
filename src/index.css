@@ -56,6 +56,14 @@ body {
     background-size: cover;
     background-position: center;
   }
+
+  .customer-reviews-pagination .swiper-pagination-bullet {
+    @apply h-2.5! w-2.5! bg-[var(--color-primary)]/70!;
+  }
+
+  .customer-reviews-pagination .swiper-pagination-bullet-active {
+    @apply bg-[var(--color-primary)]!;
+  }
 }
 
 @layer utilities {
