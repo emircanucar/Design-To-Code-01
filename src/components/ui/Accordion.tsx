@@ -34,7 +34,7 @@ function Accordion({
           className={`cursor-pointer bg-white px-[92px] pb-12 shadow-2xl/10 transition-all duration-300 ease-in-out`}
           onClick={toggleOpen}
         >
-          <p className="text-sm leading-[%130] text-[#363049]">{content}</p>
+          <p className="text-sm leading-6 text-[#363049]">{content}</p>
         </div>
       )}
     </div>

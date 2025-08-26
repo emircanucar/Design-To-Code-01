@@ -7,6 +7,7 @@ import benefitBg1 from "../assets/img/benefit/1.png";
 import benefitBg2 from "../assets/img/benefit/2.jpg";
 import CustomerReviews from "../components/pages/HomePage/CustomerReviews";
 import FAQSection from "../components/pages/HomePage/FAQSection";
+import Footer from "../components/layout/Footer";
 
 function HomePage() {
   return (
@@ -31,6 +32,7 @@ function HomePage() {
         titleClassName="max-w-[364px]!  font-semibold"
         gradientBg="linear-gradient(180deg, #c3dfed 0%, #dff0f7 100%)"
       />
+      <Footer />
     </div>
   );
 }
