@@ -1,5 +1,6 @@
 import FacebookIcon from "../Icons/Social/FacebookIcon";
 import InstagramIcon from "../Icons/Social/InstagramIcon";
+import LinkedinIcon from "../Icons/Social/LinkedinIcon";
 import TwitterIcon from "../Icons/Social/TwitterIcon";
 import BrandLogo from "../ui/BrandLogo";
 import SubscribeInput from "../ui/SubscribeInput";
@@ -26,7 +27,7 @@ function Footer() {
             <InstagramIcon />
           </a>
           <a href="#?">
-            <FacebookIcon />
+            <LinkedinIcon />
           </a>
         </div>
         <div className="mt-9 text-sm text-[var(--color-secondary)]">

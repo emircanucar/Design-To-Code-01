@@ -1,5 +1,7 @@
+import { useState } from "react";
 import BrandLogo from "../ui/BrandLogo";
 import Button from "../ui/Button";
+import Sidebar from "./Sidebar";
 // import { Link } from 'react-router-dom';
 
 const navigationLinks = [
@@ -11,11 +13,17 @@ const navigationLinks = [
 ];
 
 function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <div className="flex items-center justify-between py-10">
-      <BrandLogo />
-      <div className="flex items-center gap-10">
-        <div className="flex items-center gap-10">
+    <>
+      <header className="flex items-center justify-between py-5 lg:py-10">
+        <BrandLogo />
+        <nav className="hidden items-center gap-10 lg:flex">
           {navigationLinks.map((link) => (
             <a
               key={link.id}
@@ -25,10 +33,20 @@ function Header() {
               {link.label}
             </a>
           ))}
-        </div>
-        <Button>CONTACT US</Button>
-      </div>
-    </div>
+          <Button>CONTACT US</Button>
+        </nav>
+        <button onClick={toggleSidebar} className="flex text-3xl lg:hidden">
+          ☰
+        </button>
+      </header>
+      <Sidebar
+        isOpen={isOpen}
+        onClose={toggleSidebar}
+        NavigationLinks={navigationLinks}
+      >
+        <Button className="w-full">CONTACT US</Button>
+      </Sidebar>
+    </>
   );
 }
 

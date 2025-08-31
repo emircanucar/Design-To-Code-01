@@ -17,16 +17,16 @@ function ArrowIcon({ className, width = 13, height = 12 }: ArrowIconProps) {
       <path
         d="M1 5.89111H12"
         stroke="white"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M6.5 1L12 5.89105L6.5 10.7821"
         stroke="white"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
