@@ -15,8 +15,8 @@ Herhangi bir **backend/api servis** bağlantısı bulunmayıp **sadece ön yüz 
 
 ## 🚀 Özellikler
 
-- 📱 **Responsive Tasarım**: Tüm cihazlarda mükemmel görünüm
-- 🎨 **Pixel Perfect'e Yakınlık**: Ufak farklılıklar dışında büyük oranda figma tasarımına benzetilmeye çalışılmıltır.
+- 📱 **Responsive Tasarım**: Mobil Uyumlu tasarım.
+- 🎨 **Pixel Perfect'e Yakınlık**: Ufak farklılıklar dışında büyük oranda figma tasarımına benzetilmeye çalışılmıştır.
 - 🎯 **Component Based**: Yeniden kullanılabilir React bileşenleri
 
 ## 🛠️ Teknolojiler
@@ -26,7 +26,7 @@ Herhangi bir **backend/api servis** bağlantısı bulunmayıp **sadece ön yüz 
 - **React 19.1.1**
 - **TypeScript 5.8.3**
 - **Tailwind CSS 4.1.12**
-- **React Router DOM 7.8.2**
+<!-- - **React Router DOM 7.8.2** -->
 
 ### Build Tools & Dev Experience
 
@@ -55,5 +55,3 @@ Kullanılan **tasarım** CC BY 4.0 lisansı kapsamındadır ve gerekli atıf yap
 - GitHub: [@emircanucar](https://github.com/emircanucar)
 
 ---
-
-⭐ Bu projeyi beğendiyseniz, lütfen bir yıldız verin!
