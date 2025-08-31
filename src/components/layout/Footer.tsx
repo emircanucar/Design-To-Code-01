@@ -8,7 +8,7 @@ import SubscribeInput from "../ui/SubscribeInput";
 function Footer() {
   return (
     <footer className="mt-10 grid grid-cols-12 py-11">
-      <div className="col-span-5">
+      <div className="col-span-12 lg:col-span-5">
         <BrandLogo />
         <p className="mt-7 max-w-[420px] text-sm leading-8 text-[var(--color-secondary)]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -34,7 +34,7 @@ function Footer() {
           &copy; 2024 . All rights reserved.
         </div>
       </div>
-      <div className="col-span-2 flex flex-col justify-between gap-3 py-4 text-lg">
+      <div className="col-span-12 flex flex-col justify-between gap-3 py-4 text-lg lg:col-span-2">
         <h4 className="text-xl font-semibold">Take a tour</h4>
         <a href="#?" className="hover:text-slate-400">
           Features
@@ -52,7 +52,7 @@ function Footer() {
           Support
         </a>
       </div>
-      <div className="col-span-2 flex flex-col justify-between gap-3 py-4 text-lg">
+      <div className="col-span-12 flex flex-col justify-between gap-3 py-4 text-lg lg:col-span-2">
         <h4 className="text-xl font-semibold">Our Company</h4>
         <a href="#?" className="hover:text-slate-400">
           About Us
@@ -70,7 +70,7 @@ function Footer() {
           Contact Us
         </a>
       </div>
-      <div className="col-span-3 py-4">
+      <div className="col-span-12 py-4 lg:col-span-3">
         <h4 className="text-xl font-semibold">Subscribe</h4>
         <p className="mt-7 pr-6 text-sm leading-6 text-[var(--color-secondary)]">
           Subscribe to get latest property, blog news from us

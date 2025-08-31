@@ -4,7 +4,7 @@ import UserIcon from "../../Icons/UserIcon";
 
 function HeroSectionStats() {
   return (
-    <div className="mt-[69px] grid h-[200px] w-[1140] grid-cols-[1fr_1.2fr_1fr] gap-4 rounded-3xl bg-white shadow-xl/3">
+    <div className="mt-6 grid h-fit w-full grid-cols-1 gap-4 rounded-3xl bg-white p-5 shadow-xl/3 md:mt-[69px] md:grid-cols-[1fr_1.2fr_1fr] lg:h-[200px] lg:w-[1140] lg:p-0">
       {/* Col 1 ====================================================== */}
       <div className="flex items-center justify-center">
         <div className="flex gap-9">
@@ -22,9 +22,9 @@ function HeroSectionStats() {
         </div>
       </div>
       {/* Col 2 ====================================================== */}
-      <div className="relative flex items-center justify-center">
-        <div className="absolute top-1/2 -right-2 bottom-4 h-[125.57px] w-0.5 -translate-y-1/2 bg-[#EEEFF2]"></div>
-        <div className="flex gap-9">
+      <div className="relative flex items-center justify-center border-y-2 border-[#EEEFF2] py-5 md:border-none lg:p-0">
+        <div className="absolute top-1/2 -right-2 bottom-4 hidden h-[125.57px] w-0.5 -translate-y-1/2 bg-[#EEEFF2] md:block"></div>
+        <div className="] flex gap-9">
           <div className="flex">
             <div className="flex h-[55px] w-[55px] items-center justify-center rounded-full bg-[var(--color-primary)]/10">
               <LocationIcon />
@@ -37,7 +37,7 @@ function HeroSectionStats() {
             <span className="font text-xl text-[#4f6565]">Properties</span>
           </div>
         </div>
-        <div className="absolute top-1/2 bottom-4 -left-2 h-[125.57px] w-0.5 -translate-y-1/2 bg-[#EEEFF2]"></div>
+        <div className="absolute top-1/2 bottom-4 -left-2 hidden h-[125.57px] w-0.5 -translate-y-1/2 bg-[#EEEFF2] md:block"></div>
       </div>
       {/* Col 3 ====================================================== */}
       <div className="flex items-center justify-center">

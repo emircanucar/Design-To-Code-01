@@ -37,10 +37,10 @@ const accodionData = [
 function FAQSection() {
   return (
     <section className="mt-20">
-      <h2 className="text-center text-[32px] font-semibold">
+      <h2 className="text-center text-2xl font-semibold lg:text-[32px]">
         Frequently Ask Questions
       </h2>
-      <div className="mt-16 flex flex-col gap-[30px] lg:flex-row">
+      <div className="mt-6 flex flex-col gap-[30px] lg:mt-16 lg:flex-row">
         {/* Col 1 ====== */}
         <div className="flex flex-1 flex-col gap-[30px]">
           {accodionData
