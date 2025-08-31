@@ -9,6 +9,10 @@ Bu proje, **Figma to Code** kapsamında, React ve TypeScript kullanılarak respo
 
 Herhangi bir **backend/api servis** bağlantısı bulunmayıp **sadece ön yüz tasarımı yer almaktadır.**
 
+## 📄 Canlı Demo
+
+<a href="https://emircanucar-design-to-code-01.netlify.app/" target="_blank">emircanucar-design-to-code-01.netlify.app</a>
+
 ## 🚀 Özellikler
 
 - 📱 **Responsive Tasarım**: Tüm cihazlarda mükemmel görünüm

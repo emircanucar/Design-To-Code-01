@@ -24,14 +24,14 @@ function Accordion({
     <div className={` ${className}`}>
       <button
         onClick={toggleOpen}
-        className="flex w-full cursor-pointer items-center gap-[34px] bg-white p-9 shadow-2xl/10"
+        className="flex w-full cursor-pointer items-center gap-3 bg-white p-6 shadow-2xl/10 md:gap-6 lg:gap-[34px] lg:p-9"
       >
-        {isOpen ? <MinusIcon /> : <PlusIcon />}
+        <div>{isOpen ? <MinusIcon /> : <PlusIcon />}</div>
         <h3 className="text-lg font-semibold">{title}</h3>
       </button>
       {isOpen && (
         <div
-          className={`cursor-pointer bg-white px-[92px] pb-12 shadow-2xl/10 transition-all duration-300 ease-in-out`}
+          className={`cursor-pointer bg-white p-6 shadow-2xl/10 transition-all duration-300 ease-in-out md:p-8 lg:px-[92px] lg:pb-12`}
           onClick={toggleOpen}
         >
           <p className="text-sm leading-6 text-[#363049]">{content}</p>

@@ -1,6 +1,6 @@
 import CustomerReviewCard from "./CustomerReviewCard";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -80,14 +80,17 @@ const reviewCardData = [
 function CustomerReviews() {
   return (
     <section className="mt-24">
-      <h2 className="mb-10 text-center text-[32px] font-semibold">
+      <h2 className="mb-10 text-center text-2xl font-semibold lg:text-[32px]">
         What our clients say
       </h2>
       <Swiper
         className="customer-reviews-swiper"
+        autoplay={{
+          delay: 5000,
+        }}
         slidesPerView={1.1}
         spaceBetween={12}
-        modules={[Pagination]}
+        modules={[Autoplay, Pagination]}
         pagination={{ clickable: true, el: ".customer-reviews-pagination" }}
         breakpoints={{
           640: {

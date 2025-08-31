@@ -71,20 +71,20 @@ const topOffersData = [
 
 function TopOffers() {
   return (
-    <div className="mt-[110px] px-12">
+    <section className="mt-24 lg:mt-[110px] lg:px-12">
       {/* Section Header====================================================== */}
       <div className="flex items-center justify-between">
-        <h2 className="text-[38px] font-medium">Top Offers</h2>
+        <h2 className="text-3xl font-medium lg:text-[38px]">Top Offers</h2>
         <a
           href="#"
-          className="text-2xl font-medium text-[var(--color-primary)]"
+          className="text-xl font-medium text-[var(--color-primary)] lg:text-2xl"
         >
           See All
         </a>
       </div>
 
       {/* Cards Container====================================================== */}
-      <div className="mt-8 grid grid-cols-1 gap-[30px] md:grid-cols-2">
+      <div className="mt-8 grid grid-cols-1 gap-[30px] xl:grid-cols-2">
         {topOffersData.slice(0, 6).map((offer) => (
           <TopOfferCard
             key={offer.id}
@@ -98,7 +98,7 @@ function TopOffers() {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 
